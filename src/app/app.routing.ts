@@ -5,12 +5,17 @@ import { Notfound } from "./components/notfound/notfound";
 //NECESITAMOS UNA SERIE DE MODULOS QUE SE ENCUENTRAN DENTRO DE ANGULAR ROUTER
 import { Routes, RouterModule } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
+import { Numerodoble } from "./components/numerodoble/numerodoble";
+import { Tablamultiplicarrouting } from "./components/tablamultiplicarrouting/tablamultiplicarrouting";
 
 //NECESITAMOS UN ARRAY DE RUTAS y sera de tipo Routes
 const appRoutes: Routes = [
     {path: '', component: Home},
     {path: 'cine', component: Cine},
     {path: 'musica', component: Musica},
+    {path: 'numerodoble', component: Numerodoble},
+    {path: 'numerodoble/:numero', component: Numerodoble},
+    {path: 'tablamultiplicar/:numero', component: Tablamultiplicarrouting},
     {path: '**', component: Notfound},
 ];
 

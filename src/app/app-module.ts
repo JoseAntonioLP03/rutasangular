@@ -9,6 +9,9 @@ import { Cine } from './components/cine/cine';
 import { Musica } from './components/musica/musica';
 import { Menu } from './components/menu/menu';
 import { Notfound } from './components/notfound/notfound';
+import { Numerodoble } from './components/numerodoble/numerodoble';
+import { Menutablamultiplicar } from './components/menutablamultiplicar/menutablamultiplicar';
+import { Tablamultiplicarrouting } from './components/tablamultiplicarrouting/tablamultiplicarrouting';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { Notfound } from './components/notfound/notfound';
     Cine,
     Musica,
     Menu,
-    Notfound
+    Notfound,
+    Numerodoble,
+    Menutablamultiplicar,
+    Tablamultiplicarrouting
   ],
   imports: [
     BrowserModule,
